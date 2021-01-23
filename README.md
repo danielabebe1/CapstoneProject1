@@ -1,2 +1,11 @@
-# CapstoneProject1
-EDA of CapstoneProject1 1st draft
+# Recommending Pain Relievers 
+The purpose of this study is to recommend pain relievers for specific conditions based on the satisfaction level of patients after pain relief medication along with the effectiveness of the medicine and its ease of use for different conditions for different age group. 
+
+### Problem Statement
+Both prescribed and non-prescribed use of pain relievers, as well as rates of opioid-related mortality and admissions to emergency departments, have increased in the last few years. There is no exact figure on how many people are affected by this problem but the number has increased according to ‘National Center for Biotechnology Information’. There are many different pain relievers, and each one has advantages and risks. Some types of pain respond better to certain medicines than others. Each person has a different response to a pain reliever for the same type of condition. This is mainly because the conditions that cause pain are very complicated, which is one of the reasons why pain management is so difficult. This difficulty decreases the quality of life of patients that, in many cases, can suffer from constant pain with little to no relief. General-purpose pain-relieving medication is often ineffective even the best painkiller like morphine can sometimes fail to inhibit pain in cancer patients. Painkillers are working by activating a receptor cell call REV_ERBs that sends chemical signals inside the cell to block the production of certain genes regulates pain-causing and inflammatory molecules inside the body. The goal of this project is to build a model that can predict painkiller selected conditions and for different age groups. 
+
+### Stakeholders
+The possible stakeholders of this project includes pharmaceutical companies, physicians and clinicians, insurance companies and patients. Knowing the consumers’ response for the product is crucial in many majors. In addition to the available research and development in the field will help physicians and clinicians while subscribing to these drugs. Pharmaceutical companies and insurance companies will also identify their focus drugs for their consumers. 
+
+### About Dataset
+The dataset used in this project was acquired from kaggle where uploaded on kaggle by scraping the WebMD site ([dataset](https://www.kaggle.com/rohanharode07/webmd-drug-reviews-dataset)). The dataset provides user reviews on specific drugs along with related conditions, side effects, age, sex, and ratings reflecting overall patient satisfaction. The dataset contains 12 features with mixed variables including categorical, numerical and date. There are above 360 thousands of rows of unique reviews and are updated till Mar 2020.
